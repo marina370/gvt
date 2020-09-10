@@ -1,0 +1,47 @@
+$light-orange: #ffb366; /*background-color*/
+$color-gvt: #de710b;
+
+.body {
+	background-color: $light-orange;
+  font-family: Roboto, sans-serif;
+}
+
+.tituloPrincipal { /*titulo Empresa*/
+   color: $color-gvt;
+   background: black;
+   text-align: center;
+   font-size: 50px;
+   border: 6px solid #de710b;
+   padding: 15px;
+   margin: 30px;
+}
+
+.tituloMainSection{ /*Titulo  de cada section del sitio*/
+	color: $color-gvt;
+	background-color: black;
+	font-size: 30px;
+	border: 4px solid #de710b;
+	text-align: center;
+}
+
+a { /*link a paginas del sitio*/
+	  color: $color-gvt;
+  	line-height: 3px;
+  	text-decoration: none;
+  	font-size: 30px;
+}
+
+.links{
+  color: #de710b;
+}   
+
+h2{
+	animation-duration: 3s;
+	animation-name: ofertas;
+}
+
+.formulario {
+ text-align: center;
+}
+
+

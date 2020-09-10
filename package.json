@@ -1,0 +1,25 @@
+{
+  "name": "projectgvt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilosSCSS.scss css/estilosCSS.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "marina",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  },
+  "description": "sass",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marina370/Proyecto-GVT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marina370/Proyecto-GVT/issues"
+  },
+  "homepage": "https://github.com/marina370/Proyecto-GVT#readme"
+}

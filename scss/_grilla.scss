@@ -1,0 +1,55 @@
+article { /*galeria foto index*/
+	display: inline-block;
+}
+
+.gridDestinos { /*grid index*/
+	width: 90%;
+	height:25%;
+	margin:0 auto;
+  	display: grid;
+  	grid-template-columns: repeat(7,2fr);
+  	grid-auto-rows: 3fr;
+  	grid-gap: 10px 10px;
+}
+
+.gridIitemDestinos{ /*galeria index*/
+	height: 150px;
+}
+
+.galeriaOfertas { /*galeria foto ofertas*/
+	display: inline-block;
+	text-align: center; 
+}
+
+.gridGalleryOfertas{ /*grid pagina ofertas*/
+	width: 70%;
+	height: 25%;
+	margin:0 auto;
+  	display: grid;
+  	grid-template-columns: repeat(2,1fr);
+  	grid-auto-rows: 1fr;
+  	grid-gap: 60px 10px;
+}
+
+img{ /*imagenes pagina ofertas e img index*/
+	width: 100%;
+	height: 100%;
+}
+
+.gridItemOfertas{ /*galeria pagina ofertas*/
+	height: 250px;
+}
+
+.gridItemOfertas:hover { /*pag ofertas*/
+ transform: scale(1.2);
+ transition: transform 0.5s;
+}
+
+@keyframes ofertas{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity:2;
+	}
+}

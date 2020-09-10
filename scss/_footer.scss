@@ -1,0 +1,21 @@
+footer{
+	text-align: center; 
+	margin:0;
+	padding:0;
+}
+
+.pieDePagina{ /*titulos del footer*/
+	display: inline-block;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	margin: 30px 20px 
+}
+
+.footerGradient {
+	background-image: linear-gradient(90deg, #853A01,#DE8A49); 
+}
+
+.pie {
+  color:black;
+}

@@ -1,0 +1,204 @@
+/*background-color*/
+.body {
+  background-color: #ffb366;
+  font-family: Roboto, sans-serif; }
+
+.tituloPrincipal {
+  /*titulo Empresa*/
+  color: #de710b;
+  background: black;
+  text-align: center;
+  font-size: 50px;
+  border: 6px solid #de710b;
+  padding: 15px;
+  margin: 30px; }
+
+.tituloMainSection {
+  /*Titulo  de cada section del sitio*/
+  color: #de710b;
+  background-color: black;
+  font-size: 30px;
+  border: 4px solid #de710b;
+  text-align: center; }
+
+a {
+  /*link a paginas del sitio*/
+  color: #de710b;
+  line-height: 3px;
+  text-decoration: none;
+  font-size: 30px; }
+
+.links {
+  color: #de710b; }
+
+h2 {
+  animation-duration: 3s;
+  animation-name: ofertas; }
+
+.formulario {
+  text-align: center; }
+
+.flexEncabezado {
+  /*flex header primera section*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(90deg, #853A01, #DE8A49); }
+
+#logo {
+  width: 135px;
+  height: 142px;
+  padding-top: 10px; }
+
+.direccion {
+  text-align: center; }
+
+.flexMenu {
+  /*menu nav*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none; }
+
+ul {
+  /*nav menu principal*/
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+  ul li {
+    /*nav menu principal*/
+    text-align: center;
+    list-style-position: inside;
+    padding: 15px 15px 10px 15px;
+    border: 4px solid #de710b;
+    display: inline;
+    background-color: black;
+    position: relative;
+    margin: 5px;
+    text-decoration: none; }
+
+li a:hover {
+  /*menu nav*/
+  background-color: #ff751a;
+  color: black;
+  text-decoration: none; }
+
+h2 a:hover {
+  /*menu nav*/
+  background-color: #ff800a;
+  color: black;
+  text-decoration: none; }
+
+article {
+  /*galeria foto index*/
+  display: inline-block; }
+
+.gridDestinos {
+  /*grid index*/
+  width: 90%;
+  height: 25%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 2fr);
+  grid-auto-rows: 3fr;
+  grid-gap: 10px 10px; }
+
+.gridIitemDestinos {
+  /*galeria index*/
+  height: 150px; }
+
+.galeriaOfertas {
+  /*galeria foto ofertas*/
+  display: inline-block;
+  text-align: center; }
+
+.gridGalleryOfertas {
+  /*grid pagina ofertas*/
+  width: 70%;
+  height: 25%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 60px 10px; }
+
+img {
+  /*imagenes pagina ofertas e img index*/
+  width: 100%;
+  height: 100%; }
+
+.gridItemOfertas {
+  /*galeria pagina ofertas*/
+  height: 250px; }
+
+.gridItemOfertas:hover {
+  /*pag ofertas*/
+  transform: scale(1.2);
+  transition: transform 0.5s; }
+
+@keyframes ofertas {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 2; } }
+
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+.pieDePagina {
+  /*titulos del footer*/
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px 20px; }
+
+.footerGradient {
+  background-image: linear-gradient(90deg, #853A01, #DE8A49); }
+
+.pie {
+  color: black; }
+
+.Contenedor {
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto; }
+
+.tarjeta {
+  background-color: #de710b;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  position: relative;
+  margin-bottom: 50px; }
+
+.tarjeta__img {
+  width: 150px;
+  height: 180px;
+  margin-right: 15px;
+  margin-top: 25px; }
+
+.tarjeta__titulo {
+  font-family: 'Source Serif Pro', serif;
+  color: black;
+  font-style: italic;
+  font-size: 25px; }
+
+.tarjeta__descripcion {
+  font-style: italic;
+  color: black;
+  font-family: 'Source Serif Pro', serif; }
+
+.boton {
+  height: 30px;
+  padding: 2px;
+  background-color: #de710b;
+  color: black;
+  display: inline-block;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px; }

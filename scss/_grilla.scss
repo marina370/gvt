@@ -9,7 +9,7 @@ article { /*galeria foto index*/
   	display: grid;
   	grid-template-columns: repeat(7,2fr);
   	grid-auto-rows: 3fr;
-  	grid-gap: 10px 10px;
+  	grid-gap: 60px 10px;
 }
 
 .gridIitemDestinos{ /*galeria index*/
@@ -28,7 +28,7 @@ article { /*galeria foto index*/
   	display: grid;
   	grid-template-columns: repeat(2,1fr);
   	grid-auto-rows: 1fr;
-  	grid-gap: 60px 10px;
+  	grid-gap: 70px 10px;
 }
 
 img{ /*imagenes pagina ofertas e img index*/
